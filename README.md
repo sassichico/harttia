@@ -1,1 +1,1 @@
-This repository compiles scripts and files used for the manuscript "Fast turnover of multiple sex chromosomes in Harttia Neotropical armored catfishes".
+This repository compiles scripts and files used for the manuscript "Rapid turnover of sex chromosomes lively drives speciation in Neotropical armored catfish Harttia (Siluriformes, Loricariidae)".
