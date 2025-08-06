@@ -11,14 +11,18 @@ set.seed(1234)
 
 # Loading data
 phyUltra <- ape::read.tree(file = "phylogeny.tre")
-traits_data <- read.csv("data_traits.csv")
+traits_data <- read.csv("data_traits.csv",nrows=17)
+#traits_data <- read.csv("data_traits.csv")
 
 # Preparing data
-phyUltra_sub <- ape::drop.tip(phy = phyUltra, tip = phyUltra$tip.label[-which(phyUltra$tip.label %in% traits_data$Species)])
+phyUltra_sub <- ape::drop.tip(phy = phyUltra, tip = "farlowella")
+#phyUltra_sub <- ape::drop.tip(phy = phyUltra, tip = phyUltra$tip.label[-which(phyUltra$tip.label %in% traits_data$Species)])
 traits_data <- traits_data[traits_data$Species %in% phyUltra_sub$tip.label,]
+
+#phyUltra_sub <- ape::drop.tip(phy = phyUltra, tip = "farlowella")
 traits_data <- as.matrix(traits_data[-1])
 species <- ape::Ntip(phyUltra_sub)
-sampling.f <- species/18
+sampling.f <- species/28
 
 # Preparing model
 trans.rates.bisse <- TransMatMaker.old(hidden.states=FALSE)
@@ -47,6 +51,7 @@ quantile(supportHisse_fit$points.within.region[,6], 0.025) # CI low transition r
 quantile(supportHisse_fit$points.within.region[,6], 0.975) # CI high transition rate
 
 
+
 ##Plotting results
 
 
@@ -73,8 +78,6 @@ ggplot(df, aes(x = State, y = Lambda)) +
     plot.title = element_text(hjust = 0.5, face = "bold")
   )
 
-
-
 ##Likelihood Ratio Test (LRT) to verify significance of data
 # Full model (trait-dependent)
 full_model <- hisse(phy = phyUltra_sub, data = traits_data,
@@ -93,3 +96,4 @@ LR = 2 * (full_model$loglik - null_model$loglik)
 p_value = pchisq(LR, df=1, lower.tail=FALSE)
 
 print(p_value)
+
