@@ -1,0 +1,5 @@
+Name,Minimum,Maximum,Length,Direction
+SLMs_Harttia,"60,360,464","60,360,525",62,reverse
+SLMs_Harttia,"58,208,323","58,208,384",62,reverse
+SLMs_Harttia,"29,414,777","29,414,838",62,reverse
+SLMs_Harttia,"25,819,044","25,819,083",40,forward

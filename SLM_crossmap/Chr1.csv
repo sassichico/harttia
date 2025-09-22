@@ -1,0 +1,10 @@
+Name,Type,Minimum,Maximum,Length,Direction
+SLMs_Harttia,misc_feature,"103,166,554","103,166,615",62,forward
+SLMs_Harttia,misc_feature,"91,476,008","91,476,069",62,forward
+SLMs_Harttia,misc_feature,"82,638,032","82,638,093",62,forward
+SLMs_Harttia,misc_feature,"61,031,206","61,031,267",62,forward
+SLMs_Harttia,misc_feature,"50,448,284","50,448,345",62,reverse
+SLMs_Harttia,misc_feature,"40,945,395","40,945,456",62,reverse
+SLMs_Harttia,misc_feature,"32,450,677","32,450,738",62,forward
+SLMs_Harttia,misc_feature,"32,150,590","32,150,651",62,forward
+attB2,attB2,"14,934,028","14,934,048",21,forward
