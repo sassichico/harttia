@@ -1,0 +1,98 @@
+#Nodes with GAIN events with expectation above 0.5
+Total number of gain events: 0
+#+++++++++++++++++++++++++++++
+
+#Nodes with LOSS events with expectation above 0.5
+N29: 1.87806
+N10: 1.12234
+Harttia_rondoni: 1.00026
+Harttia_dissidens: 1.00039
+Harttia_sp_RP: 1.00634
+Harttia_loricariformis: 1.02982
+N23: 0.989654
+Harttia_intermontana: 2.01304
+Harttia_carvalhoi: 2.00005
+Farlowella_sp: 2.27945
+Total number of loss events: 15.5146
+#+++++++++++++++++++++++++++++
+
+#Nodes with duplication events with expectation above 0.5
+Total number of duplication events: 0
+#+++++++++++++++++++++++++++++
+
+#Nodes with demi-duplication events with expectation above 0.5
+Total number of demi-duplications events: 0
+#+++++++++++++++++++++++++++++
+
+#Nodes with transitions in base number events with expectation above 0.5
+Total number of transitions in base number: 0
+#+++++++++++++++++++++++++++++
+
+EVENTS NOT ACCOUNTED FOR IN THE SIMULATIONS: 
+#+++++++++++++++++++++++++++++
+
+#ALL EVENTS EXPECTATIONS PER NODE
+NODE	GAIN	LOSS	DUPLICATION	DEMI-DUPLICATION	BASE-NUMBER	TOMAX
+N30	0	0.119178	0	0	0	0
+Harttia_sp_BG	0	0.160275	0	0	0	0
+N29	0	1.87806	0	0	0	0
+Harttia_guianensis	0	0.282214	0	0	0	0
+N28	0	0.0708955	0	0	0	0
+N12	0	0.0826376	0	0	0	0
+N10	0	1.12234	0	0	0	0
+N8	0	0.00502694	0	0	0	0
+Harttia_duruventris	0	0.00131028	0	0	0	0
+N7	0	0.000915432	0	0	0	0
+N5	0	0.000137237	0	0	0	0
+Harttia_villasboas	0	0.000257613	0	0	0	0
+Harttia_rondoni	0	1.00026	0	0	0	0
+Harttia_dissidens	0	1.00039	0	0	0	0
+Harttia_sp_RP	0	1.00634	0	0	0	0
+Harttia_punctata	0	0.128681	0	0	0	0
+N27	0	0.100085	0	0	0	0
+Harttia_kronei	0	0.111233	0	0	0	0
+N26	0	0.0814161	0	0	0	0
+Harttia_loricariformis	0	1.02982	0	0	0	0
+N25	0	0.0235124	0	0	0	0
+Harttia_gracilis	0	0.00630455	0	0	0	0
+N24	0	0.00361413	0	0	0	0
+Harttia_longipinna	0	0.00269042	0	0	0	0
+N23	0	0.989654	0	0	0	0
+Harttia_intermontana	0	2.01304	0	0	0	0
+N22	0	0.0112363	0	0	0	0
+Harttia_torrenticola	0	0.00180021	0	0	0	0
+N21	0	0.00175333	0	0	0	0
+Harttia_sp_RM	0	4.68776e-05	0	0	0	0
+Harttia_carvalhoi	0	2.00005	0	0	0	0
+Farlowella_sp	0	2.27945	0	0	0	0
+#+++++++++++++++++++++++++++++
+
+
+#EXPECTED NUMBER OF EVENTS FROM ROOT TO LEAF
+NODE	GAIN	LOSS	DUPLICATION	DEMI-DUPLICATION	BASE-NUMBER	TOMAX
+Harttia_sp_BG	0	0.279453	0	0	0	0
+Harttia_guianensis	0	2.27945	0	0	0	0
+Harttia_duruventris	0	3.27945	0	0	0	0
+Harttia_villasboas	0	3.27945	0	0	0	0
+Harttia_rondoni	0	4.27945	0	0	0	0
+Harttia_dissidens	0	4.27945	0	0	0	0
+Harttia_sp_RP	0	4.27945	0	0	0	0
+Harttia_punctata	0	2.27945	0	0	0	0
+Harttia_kronei	0	2.27945	0	0	0	0
+Harttia_loricariformis	0	3.27945	0	0	0	0
+Harttia_gracilis	0	2.27945	0	0	0	0
+Harttia_longipinna	0	2.27945	0	0	0	0
+Harttia_intermontana	0	5.27945	0	0	0	0
+Harttia_torrenticola	0	3.27945	0	0	0	0
+Harttia_sp_RM	0	3.27945	0	0	0	0
+Harttia_carvalhoi	0	5.27945	0	0	0	0
+Farlowella_sp	0	2.27945	0	0	0	0
+#+++++++++++++++++++++++++++++
+
+#TOTAL EXPECTATIONS:
+GAIN: 0
+LOSS: 15.5146
+DUPLICATION: 0
+DEMI-DUPLICATION: 0
+BASE-NUMBER: 0
+TOMAX: 0
